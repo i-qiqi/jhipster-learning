@@ -43,7 +43,7 @@ sudo python get-pip.py
 
 ### Starting the application
 <font color="red">可能是网络原因</font>
-![webdriver-manager](webdriver-manager-error.jpg)
+![webdriver-manager](img/webdriver-manager-error.jpg)
 
 ## Running generated tests
 > Good software development is never complete without good testing.
