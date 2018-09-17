@@ -48,6 +48,13 @@ assert x.reverse() == 10..1
 # syntex structure : closure in braces.
 { [parameter...]->statement}
 ```
+- [`Java8 Lambda expression`](http://www.importnew.com/16436.html):
+在JDK8之前，Java是不支持函数式编程的，所谓的函数编程，即可理解是将一个函数（也称为“行为”）作为一个参数进行传递。通常我们提及得更多的是面向对象编程，面向对象编程是对数据的抽象（各种各样的POJO类），而函数式编程则是对行为的抽象（将行为作为一个参数进行传递）。在JavaScript中这是很常见的一个语法特性，但在Java中将一个函数作为参数传递这却行不通，好在JDK8的出现打破了Java的这一限制。
+  - 能够接收Lambda表达式的参数类型，是一个只包含一个方法的接口。只包含一个方法的接口称之为`函数接口`。
+  - [`other  resource`](https://www.cnblogs.com/yulinfeng/p/8452379.html)
+- [`java8 Stream API`](https://www.jianshu.com/p/3bdd8853016d)
+  - [`Stream与Lambda表达式`](https://blog.csdn.net/caihuangshi/article/details/51298622)
+  - [`other`](http://www.cnblogs.com/junjiang3/p/8998509.html)
 - [`Java内部类`](https://www.cnblogs.com/dolphin0520/p/3811445.html) ：成员内部类、局部内部类、匿名内部类和静态内部类
   - [`匿名内部类`](http://www.cnblogs.com/chenssy/p/3390871.html)：
     - 使用匿名内部类时，我们必须是继承一个类或者实现一个接口，但是两者不可兼得，同时也只能继承一个类或者实现一个接口;

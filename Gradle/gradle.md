@@ -8,7 +8,22 @@
 > [Gradle Build Language Reference](https://docs.gradle.org/current/dsl/)
 >
 >[Gradle API](https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html)
-> [Gradle构建最佳实践](http://www.figotan.org/2016/04/01/gradle-on-android-best-practise/)
+> [Gradle构建最佳实践](http://www.figotan.org/2016/04/01/gradle-on-android-best-practise/).
+>
+> [W3CShool Gradle教程](https://www.w3cschool.cn/gradle/ms7n1hu2.html)
+
+<hr>
+> gradle 优点 ：
+1. 按约定声明构建和建设；
+2. 强大的支持多工程的构建；
+3. 强大的依赖管理（基于Apache Ivy），提供最大的便利去构建工程；
+4. 全力支持已有的 Maven 或者Ivy仓库基础建设；
+5. 支持传递性依赖管理，在不需要远程仓库和pom.xml和ivy配置文件的前提下；
+6. 基于groovy脚本构建，其build脚本使用groovy语言编写；
+7. 具有广泛的领域模型支持构建；
+8. 深度 API；
+9. 易迁移；
+10. 自由和开放源码，Gradle是一个开源项目，基于 ASL 许可。
 
 ## Groovy
 ### Groovy中bean的概念
