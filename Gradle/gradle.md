@@ -1,4 +1,4 @@
-#v Gradle
+# Gradle
 >  [读懂gradle语法](https://help.gradle.org)
 >
 > [Gradle user guide](http://blog.didispace.com/books/GradleUserGuide/)
@@ -28,7 +28,7 @@
 ## Groovy
 ### Groovy中bean的概念
 - Groovy为每一个字段都会自动生成getter和setter，并且我们可以通过像访问字段本身一样调用getter和setter
-### 闭包的Delegatej机制
+### 闭包的Delegate机制 :thumbsup:
 > [Groovy闭包](https://blog.csdn.net/u014099894/article/details/51118703)
 
 - `闭包` ： A closure in Groovy is an open, anonymous, block of code that can take arguments, return a value and be assigned to a variable.（Groovy中的闭包是一段 开放的、匿名的代码)。
