@@ -18,5 +18,6 @@
 - Using git repos :
   - meet frontend error : maybe related to `node-sass` and `yarn`
   <img src ="img/jhi-registry-frontend-bug.jpg">
+  
   - [Similar Bug](https://blog.csdn.net/ztz87/article/details/81734916)
 ## Run the microservice setup
