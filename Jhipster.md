@@ -1,6 +1,12 @@
 # Jhipster
 ## Installation
->  yarn installation
+- Tips :
+ ```bash
+ # to see all available commands
+jhipster --help
+# To see help infomation for main app generation process.
+jhipster app --help
+```
 
 ### Yarn
 - 添加源
@@ -194,4 +200,27 @@ git merge --no-ff French
   ```
 
 ### `CI/CD` tools
-  - Setting up the **CI** with [`Jenkins`]() using **Jhipster CI/CD sub-generator**
+> [`Jenkins`](https:/​/​jenkins.​io/),[`Travis CI`](https:/​/​travis-​ci.​org/),[`GitLab CI`](https:/​/​about.​gitlab.​com/​features/​gitlab-​ci-​cd/),[`Circle CI`](https:/​/​circleci.​com/​)
+
+  - Setting up the **CI** with `Jenkins.war`
+  ```bash
+  # download the latest binary , also you can use Doker
+  http:/​/​mirrors.​jenkins.​io/​war-​stable/latest/​jenkins.​war
+  # start a Jenkins server
+  java -jar jenkins.war --httpPort=8989
+  # navigate to url
+  localhost:8989
+  # click on `Install suggested plugins`
+  # create an admin user on next page and complete.
+  ```
+  - Creating a `Jenkins Pipeline` Using `Jhipster ci-cd sub-generator`
+  <img src="img/jhipster-ci-cd.jpg"/>
+  - Setting up the `Jenkinsfile` in a `Jenkins server`
+  ```bash
+  # make sure you have uploaded your application to a GIT server, such as GitLab, GitHub,BitBucket.
+  # go to the Jenkins server,and create mew jobs.
+  http://localhost:8989/
+  # enter a name , select pipeline.
+  # Build triggers.
+  ```
+  -

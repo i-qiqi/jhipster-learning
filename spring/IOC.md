@@ -39,3 +39,4 @@
   - [`黄忆华tiny-spring`](https://www.zybuluo.com/dugu9sword/note/382745)
   - [`Spring揭秘`](https://www.dropbox.com/s/93b7vkukf27t5q5/spring%E6%8F%AD%E7%A7%98.pdf?dl=0)
   - [`Spring源码深度分析`](https://www.dropbox.com/s/xot5ipi6hkmco09/Spring-deep.pdf?dl=0)
+  - [`王福强Blog`](https://darrenwangfq.wordpress.com/about/)
