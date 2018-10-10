@@ -15,8 +15,22 @@
   ```bash
   。。。。
   ```
-- Using git repos :
-  - meet frontend error : maybe related to `node-sass` and `yarn`
+- Using JHipster-registry source code :
+```bash
+# git clone from official repos
+git clone git@github.com:jhipster/jhipster-registry.git
+# select the version you want
+git checkout <version-tag>
+# run the Registry
+./mvnw -Pdev
+```
+  - meet frontend error : maybe related , to `node-sass` and `yarn`,note that you node version should be correct. 
   <img src ="img/jhi-registry-frontend-bug.jpg">
   - [Similar Bug](https://blog.csdn.net/ztz87/article/details/81734916)
+- Docker mode : [jhipster-registry.yml](https://github.com/i-qiqi/jhipster-gateway/blob/master/src/main/docker/jhipster-registry.yml)
+```bash
+# see detail config in docker-compose file under jhipster-registry.yml
+docker-compose -f src/main/docker/jhipster-registry.yml up
+```
 ## Run the microservice setup
+- Before running the notificaiton microservice, ensure that you have installed the MongoDB and start it , see [`MongoDB Installation Guide`](NoSql/MongoDB/mongodb-installation.md)
