@@ -26,6 +26,7 @@ git checkout <version-tag>
 ```
   - meet frontend error : maybe related , to `node-sass` and `yarn`,note that you node version should be correct. 
   <img src ="img/jhi-registry-frontend-bug.jpg">
+  
   - [Similar Bug](https://blog.csdn.net/ztz87/article/details/81734916)
 - Docker mode : [jhipster-registry.yml](https://github.com/i-qiqi/jhipster-gateway/blob/master/src/main/docker/jhipster-registry.yml)
 ```bash
