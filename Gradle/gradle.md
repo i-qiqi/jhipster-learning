@@ -1,4 +1,4 @@
-# Gradle
+  # Gradle
 >  [读懂gradle语法](https://help.gradle.org)
 >
 > [Gradle user guide](http://blog.didispace.com/books/GradleUserGuide/)
@@ -11,7 +11,9 @@
 > [Gradle构建最佳实践](http://www.figotan.org/2016/04/01/gradle-on-android-best-practise/).
 >
 > [W3CShool Gradle教程](https://www.w3cschool.cn/gradle/ms7n1hu2.html)
-
+>
+> [自定义plugin](https://www.jianshu.com/p/bcaf9a269d96)
+> [Gradle project API](https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html#task-java.lang.String-groovy.lang.Closure-)
 <hr>
 > gradle 优点 ：
 1. 按约定声明构建和建设；
@@ -73,3 +75,5 @@
     - Task创建的时候可以指定Type，通过type:名字表达。这是什么意思呢？其实就是告诉Gradle，这个新建的Task对象会从哪个基类Task派生。比如，Gradle本身提供了一些通用的Task，最常见的有Copy 任务。Copy是Gradle中的一个类。当我们：task myTask(type:Copy)的时候，创建的Task就是一个Copy Task。
     - 当我们使用 taskmyTask{ xxx}的时候。花括号是一个closure。这会导致gradle在创建这个Task之后，返回给用户之前，会先执行closure的内容。
     - 当我们使用taskmyTask << {xxx}的时候，我们创建了一个Task对象，同时把closure做为一个action加到这个Task的action队列中，并且告诉它“最后才执行这个closure”（注意，<<符号是doLast的代表）。
+    ### Reference
+    - [`dependency-management-plugin`](https://github.com/spring-gradle-plugins/dependency-management-plugin)
