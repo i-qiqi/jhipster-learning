@@ -20,13 +20,12 @@ In the process of installing `minikube` , I encountered many weird bug here , to
   - [Ubuntu18.04中安装shadowsocks和privoxy全局代理](https://ywnz.com/linuxjc/2687.html)
 
   ```bash
-# minikube
-minikube start --registry-mirror=https://registry.docker-cn.com
-# set the Minikube context with kubectl
-kubectl config use-context minikube
-# Verify that kubectl is configured to commucated with the cluster
-kubectl cluster-info
-```
+  # minikube
+  minikube start --registry-mirror=https://registry.docker-cn.com
+  # set the Minikube context with kubectl
+  kubectl config use-context minikube
+  # Verify that kubectl is configured to commucated with the cluster
+  kubectl cluster-info```
 
 ## Create a Docker container image.
 ### Reusing the Docker daemon
