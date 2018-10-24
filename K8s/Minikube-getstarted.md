@@ -9,10 +9,9 @@ In the process of installing `minikube` , I encountered many weird bug here , to
 - I take a alternative version of minikube and kubernetes.　To my surprise , this case succeeded.  And thinks to [Minikube - Kubernetes本地实验环境](https://yq.aliyun.com/articles/221687?p=2)
 
   ```bash
-# install minikube
-curl -Lo minikube http://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/releases/v0.25.2/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
- --kubernetes-version v1.9.4
-```
+  # install minikube
+  curl -Lo minikube http://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/releases/v0.25.2/minikube-linux-      amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+  --kubernetes-version v1.9.4```
 
 ## Create a Minikube cluster
 - In the previous attempts of `minikube start`, `kubelet` and `kubeadm`  were so slow to download. Also I tried the configure the global proxy with `shadowsocks-qt5`, but it didn't work.
